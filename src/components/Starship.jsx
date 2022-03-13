@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PilotList from "../PilotList/PilotList";
 
-// { location }
-function StarshipPage(props) {
+function Starship(props) {
   const id = props.match.params.id;
   console.log(props);
   console.log(props.ships[id]);
@@ -24,4 +23,4 @@ function StarshipPage(props) {
   );
 }
 
-export default StarshipPage;
+export default Starship;
